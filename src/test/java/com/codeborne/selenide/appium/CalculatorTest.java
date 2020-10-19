@@ -15,7 +15,7 @@ public class CalculatorTest extends BaseTest {
     $(By.id("op_add")).click();
     $(By.id("digit_4")).click();
     $(By.id("eq")).click();
-    $(By.id("result")).shouldHave(text("6"));
+    $(By.id("result")).shouldHave(text("7"));
   }
 
   @Test
